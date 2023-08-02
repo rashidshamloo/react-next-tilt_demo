@@ -7,6 +7,9 @@ import { useMediaQuery } from 'react-responsive';
 // react-next-tilt
 import { Tilt } from 'react-next-tilt';
 
+// config
+import { base } from '../config/config.ts';
+
 const ControlElementDemo = () => {
   // media query
   const isLarge = useMediaQuery({ query: '(min-width: 1024px)' });
@@ -51,7 +54,7 @@ const ControlElementDemo = () => {
   }, [fullPageListening]);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-start gap-x-16 gap-y-8 bg-slate-300 bg-[url('/t-bg.webp')] bg-contain bg-fixed bg-left bg-no-repeat py-8 font-inter">
+    <main className="flex min-h-screen flex-col items-center justify-start gap-x-16 gap-y-8 bg-slate-300 bg-[url('/images/t-bg.webp')] bg-contain bg-fixed bg-left bg-no-repeat py-8 font-inter">
       <h1 className="sr-only">Next-Tilt Control Element Demo</h1>
       <div className="grid w-[360px] max-w-full grid-cols-2 gap-4 lg:w-[848px]">
         <div className="flex flex-col items-center justify-center self-end">
@@ -186,7 +189,7 @@ const ControlElementDemo = () => {
             controlElementOnly={controlElementOnly}
           >
             <img
-              src={`/0${i + 1}.webp`}
+              src={`${base}/images/0${i + 1}.webp`}
               alt={'Image ' + (i + 1)}
               className="rounded-[16px] border-4 border-white"
             />

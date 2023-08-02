@@ -71,7 +71,7 @@ function App() {
   }, [scale]);
 
   return (
-    <div className="relative z-10 flex min-h-[100dvh] flex-col items-center justify-start bg-slate-300 bg-[url('/t-bg.webp')] bg-contain bg-fixed bg-left bg-no-repeat pb-4 pt-2 font-inter text-sm xs:text-base lg:pb-0">
+    <div className="relative z-10 flex min-h-[100dvh] flex-col items-center justify-start bg-slate-300 bg-[url('/images/t-bg.webp')] bg-contain bg-fixed bg-left bg-no-repeat pb-4 pt-2 font-inter text-sm xs:text-base lg:pb-0">
       <header className="w-[95%] md:w-auto [&_label]:mr-2 [&_label]:text-slate-600 [&_label]:drop-shadow-[0_0_0.25rem_rgba(255,255,255,0.8)] md:[&_label]:mr-1 lg:[&_label]:mr-2 [&_select]:flex-grow [&_select]:rounded-full [&_select]:border-[1px] [&_select]:border-slate-100/50 [&_select]:bg-slate-100/80 [&_select]:px-1 [&_select]:text-slate-600 [&_select]:outline-0 focus-within:[&_select]:outline-1">
         <div className="z-1 relative mx-auto flex flex-col gap-x-3 gap-y-4 rounded-xl border-[1px] border-slate-100/50 bg-slate-200 p-4 md:flex-row md:text-sm lg:gap-x-8 lg:px-8 lg:text-[0.925rem] [&>div]:flex">
           <h1 className="sr-only">Next-Tilt Demo</h1>
@@ -262,7 +262,7 @@ function App() {
                 aria-hidden="true"
               >
                 <img
-                  src="/parallax/bg.webp"
+                  src="images/parallax/bg.webp"
                   className="col-start-1 col-end-1 row-start-1 row-end-1 inline-block h-full w-full"
                   style={{
                     borderRadius: parallax ? borderRadius : undefined,
@@ -270,12 +270,12 @@ function App() {
                   alt="background"
                 />
                 <img
-                  src="/parallax/flower.webp"
+                  src="images/parallax/flower.webp"
                   className="col-start-1 col-end-1 row-start-1 row-end-1 translate-z-16 transform"
                   alt="flower"
                 />
                 <img
-                  src="/parallax/text.webp"
+                  src="images/parallax/text.webp"
                   className="col-start-1 col-end-1 row-start-1 row-end-1 translate-z-36 transform"
                   alt="Saffron"
                 />
