@@ -39,11 +39,11 @@ This is the Demo for the [react-next-tilt](https://www.npmjs.com/package/react-n
 - Control Element Demo
   - Desktop
  
-  ![Main Demo Desktop Screenshot](screenshot-control-element-desktop.png)
+  ![Control Element Demo Desktop Screenshot](screenshot-control-element-desktop.png)
 
   - Mobile
  
-  ![Main Demo Mobile Screenshot](screenshot-control-element-mobile.png)
+  ![Control Element Demo Mobile Screenshot](screenshot-control-element-mobile.png)
 
 ## Credits
 
