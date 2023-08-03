@@ -92,6 +92,7 @@ This is the Demo for the [react-next-tilt](https://www.npmjs.com/package/react-n
 
 - [Single Page Apps for GitHub Pages](https://github.com/rafgraph/spa-github-pages) - A solution for running React Router on GitHub Pages without using the Hash Router.
 - [react-responsive](https://www.npmjs.com/package/react-responsive) - The package used for detecting different screen sizes.
+- [tailwindcss-3d](https://www.npmjs.com/package/tailwindcss-3d) - The package used for adding 3D transforms to Tailwind CSS.
 
 ## Author
 
