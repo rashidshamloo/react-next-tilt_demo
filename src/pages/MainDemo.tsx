@@ -12,7 +12,7 @@ import { animate } from '../utility/utility';
 
 // types
 type LineGlare = 'on-blur' | 'on-no-blur' | 'off';
-type SpotGlare = 'on-top' | 'on-right' | 'on-bottom' | 'on-left' | 'off';
+type SpotGlare = 'on-top' | 'on-right' | 'on-bottom' | 'on-left' | 'on-all' | 'off';
 
 function App() {
   // media queries
@@ -100,6 +100,7 @@ function App() {
               <option value="on-bottom">Bottom</option>
               <option value="on-left">Left</option>
               <option value="on-right">Right</option>
+              <option value="on-all">All</option>
               <option value="off">Off</option>
             </select>
           </div>
