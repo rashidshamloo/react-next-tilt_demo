@@ -177,7 +177,7 @@ const ControlElementDemo = () => {
       <div className="grid min-h-[calc(100dvh_-_30rem)] grid-cols-2 content-center gap-4 lg:min-h-[calc(100dvh_-_18.5rem)] lg:grid-cols-4 ">
         {[...Array(isLarge ? 8 : 4)].map((_, i) => (
           <Tilt
-            key={i}
+            key={i + String(+fullPageListening)}
             borderRadius="16px"
             className="w-[165px] max-w-[100%] lg:w-[200px]"
             tabIndex={0}
