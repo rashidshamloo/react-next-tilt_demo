@@ -12,7 +12,13 @@ import { animate } from '../utility/utility';
 
 // types
 type LineGlare = 'on-blur' | 'on-no-blur' | 'off';
-type SpotGlare = 'on-top' | 'on-right' | 'on-bottom' | 'on-left' | 'on-all' | 'off';
+type SpotGlare =
+  | 'on-top'
+  | 'on-right'
+  | 'on-bottom'
+  | 'on-left'
+  | 'on-all'
+  | 'off';
 
 function App() {
   // media queries
