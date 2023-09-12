@@ -41,13 +41,14 @@ const ControlElementDemo = () => {
   }, [isLarge]);
 
   useEffect(() => {
-    if (fullPageListening && fullPageListeningCheckbox.current) {
+    if (fullPageListening && fullPageListeningCheckbox.current?.checked) {
       const boundingBox =
         fullPageListeningCheckbox.current.getBoundingClientRect();
-      document.dispatchEvent(
+      fullPageListeningCheckbox.current.dispatchEvent(
         new MouseEvent('mousemove', {
           clientX: boundingBox.left,
           clientY: boundingBox.top,
+          bubbles: true,
         })
       );
     }
